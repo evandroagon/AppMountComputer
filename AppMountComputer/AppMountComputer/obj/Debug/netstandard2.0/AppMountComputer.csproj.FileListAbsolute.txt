@@ -1,0 +1,38 @@
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\bin\Debug\netstandard2.0\AppMountComputer.deps.json
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\bin\Debug\netstandard2.0\AppMountComputer.dll
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.csprojAssemblyReference.cache
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.csproj.CoreCompileInputs.cache
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.AssemblyInfoInputs.cache
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.AssemblyInfo.cs
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\bin\Debug\netstandard2.0\AppMountComputer.pdb
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.Properties.Resources.resources
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.csproj.GenerateResource.cache
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.dll
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.pdb
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\CadastroProcessador.xaml.g.cs
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\ConsultaProcessador.xaml.g.cs
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\DetalhePeca.xaml.g.cs
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\MinhasPecas.xaml.g.cs
+C:\Users\zigui\source\repos\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\AtualizarProcessador.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\bin\Debug\netstandard2.0\AppMountComputer.deps.json
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\bin\Debug\netstandard2.0\AppMountComputer.dll
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\bin\Debug\netstandard2.0\AppMountComputer.pdb
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.Properties.Resources.resources
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.csproj.GenerateResource.cache
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\AtualizarProcessador.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\CadastroProcessador.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\ConsultaProcessador.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\DetalhePeca.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\Paginas\MinhasPecas.xaml.g.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.csproj.CoreCompileInputs.cache
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.AssemblyInfoInputs.cache
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.AssemblyInfo.cs
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\XamlC.stamp
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.dll
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.pdb
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer\obj\Debug\netstandard2.0\AppMountComputer.csprojAssemblyReference.cache

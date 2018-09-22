@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMountComputer.Paginas.ConsultaProcessador"
+             BackgroundImage="bg4.png"
+             Title="Mount Computer">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Vertical">
+                <Label Text="App Mount Computer" FontSize="24" TextColor="White"/>
+                <Button Text="encontre a sua peça" IsVisible="False" IsEnabled="False" FontSize="12" TextColor="White"  BorderColor="White" BorderRadius="3"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Adicionar" Clicked="GoCadastro" 
+                        TextColor="White" BorderColor="White" BorderRadius="3"/>
+                    <Button Text="Minhas Peças" Clicked="GoMinhasPecas"
+                            TextColor="White"  BorderColor="White" BorderRadius="3" />
+            </StackLayout>
+
+            <Entry Placeholder="Pesquisar" TextChanged="PesquisarAction" 
+                   BackgroundColor="#ffb94c" 
+                   PlaceholderColor="Gray"                
+                   TextColor="#F29100"/>
+            <StackLayout Orientation="Horizontal">
+            <Label  Text="Nº Total de peças:" TextColor="White"/>
+            <Label x:Name="lblCount" TextColor="White"/>
+            </StackLayout>
+            <ListView x:Name="ListaProcessadores" SeparatorVisibility="Default" SeparatorColor="White">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid RowSpacing="5" ColumnSpacing="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="200" />
+                                    <ColumnDefinition Width="100" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto" />
+                                </Grid.RowDefinitions>
+
+                                <StackLayout Grid.Column="0"  Orientation="Vertical" HorizontalOptions="FillAndExpand">
+                                    <Label Text="{Binding marca}"  FontAttributes="Bold" TextColor="White"/>
+                                    <Label Text="{Binding preco}" TextColor="White" />
+                                </StackLayout>
+                                <StackLayout Grid.Column="1" HorizontalOptions="FillAndExpand" >
+                                    <Label Text="+Detalhe" Grid.Row="1" TextColor="White" HorizontalTextAlignment="End">
+                                    <Label.GestureRecognizers>
+                                        <TapGestureRecognizer Tapped="MaisDetalheAction" CommandParameter="{Binding}" />
+                                    </Label.GestureRecognizers>
+                                </Label>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

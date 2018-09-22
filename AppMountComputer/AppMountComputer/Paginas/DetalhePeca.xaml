@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMountComputer.Paginas.DetalhePeca"
+             BackgroundImage="bg2.png"
+             Title="Detalhe Peça">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" Margin="10,5,5,5">
+            <Label Text="{Binding marca}" FontSize="22" 
+                   TextColor="#F29100"
+                   Margin="0,0,5,0"
+                   HorizontalOptions="Start" FontAttributes="Bold"/>
+            <Label Text="{Binding linha}" FontSize="18"
+                   TextColor="#F29100"
+                   Margin="0,0,5,0"
+                   HorizontalOptions="Start"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Modelo: " FontAttributes="Bold"
+                        Margin="0,0,5,0"
+                       TextColor="#F29100"/>
+                <Label Text="{Binding modelo}"
+                        Margin="0,0,5,0"
+                       TextColor="#F29100"/>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Preço: " FontAttributes="Bold" 
+                       TextColor="#F29100"/>
+                <Label Text="{Binding preco}" 
+                       TextColor="#F29100"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

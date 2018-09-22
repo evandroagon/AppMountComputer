@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMountComputer.Paginas.MinhasPecas"
+             BackgroundImage="bg2.png"
+             Title="Minhas Peças">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Peças" FontSize="24" TextColor="#F29100"/>
+                <Button Text="encontre a sua peça" BackgroundColor="#F29100" 
+                        IsVisible="False" IsEnabled="False"
+                        FontSize="12" TextColor="White" FontAttributes="Bold"/>
+            </StackLayout>
+           <!-- <StackLayout Orientation="Horizontal">
+                <Button Text="Adicionar" Clicked="GoCadastro"/>
+                <Button Text="Minhas Peças" Clicked="GoMinhasVagas" />
+            </StackLayout>-->
+
+            <Entry Placeholder="Pesquisar" PlaceholderColor="Gray"  
+                   TextChanged="PesquisarAction" 
+                   TextColor="#F29100"
+                   BackgroundColor="#ffe189" />
+            <Label Text="" x:Name="lblCount" />
+
+            <ListView x:Name="ListaProcessadores" SeparatorVisibility="Default" SeparatorColor="White">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="200"/>
+                                    <ColumnDefinition Width="100" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+
+                                <StackLayout Grid.Column="0">
+                                    <Label  Text="{Binding marca}" TextColor="#F29100" FontAttributes="Bold"/>
+                                    <Label  Text="{Binding preco}" TextColor="#F29100" />
+                                </StackLayout>
+
+                                <StackLayout Grid.Column="1" Orientation="Horizontal">
+                                    <Label Text="Editar" TextColor="#F29100">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="EditarAction" CommandParameter="{Binding}" />
+                                        </Label.GestureRecognizers>
+                                    </Label>
+
+
+                                    <Label Text="|" TextColor="White"/>
+                                    <Label Text="Excluir" TextColor="#F29100">
+                                        <Label.GestureRecognizers>
+                                            <TapGestureRecognizer Tapped="ExcluirAction" CommandParameter="{Binding}" />
+                                        </Label.GestureRecognizers>
+                                    </Label>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

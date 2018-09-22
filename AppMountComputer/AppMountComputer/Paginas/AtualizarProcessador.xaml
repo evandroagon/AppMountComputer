@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppMountComputer.Paginas.AtualizarProcessador"
+             BackgroundImage="bg2.png"
+             Title="Atualizar Peça">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
+            <Entry x:Name="id" Placeholder="id" TextColor="#F29100" PlaceholderColor="#F29100"/>
+            <Entry x:Name="marca" Placeholder="marca" TextColor="#F29100" PlaceholderColor="#F29100"/>
+            <Entry x:Name="linha" Placeholder="linha" TextColor="#F29100" PlaceholderColor="#F29100"/>
+            <Entry x:Name="modelo" Placeholder="modelo" TextColor="#F29100" PlaceholderColor="#F29100"/>
+            <Entry x:Name="preco" Placeholder="preco" TextColor="#F29100" PlaceholderColor="#F29100"/>
+
+            <Button Text="Salvar" Clicked="salvarAction"
+                    BorderColor="White" BorderRadius="3"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

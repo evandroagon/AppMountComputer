@@ -1,0 +1,1 @@
+C:\SDM4-2018-2\Fernando Salina\AppMountComputer\AppMountComputer\AppMountComputer.UWP\AppMountComputer.UWP.csproj;x64
